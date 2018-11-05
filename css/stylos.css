@@ -8,18 +8,20 @@
 header{
 	height: 80px;
 	width: 100%;
-	background: #19BC9D;
+	background: #040404;
 	position: fixed;
 	z-index: 10;
 	top: 0;
 	left: 0;
 	border-bottom: 1px solid white;
+	color: white;
 
 }
 
 
+
 .menu{
-	background: #6EE8C7;
+	background: #191818;
 	width: 0;
 	height: 100vh;
 	position: fixed;
@@ -31,7 +33,7 @@ header{
 	
 }
 
-.menu li{
+.menu .li{
 	height: 60px;
 	letter-spacing: 2px;
 	padding-left: 20px;
@@ -41,6 +43,18 @@ header{
 	display: block;
 	width: 200px;
 }
+.dataUser{
+	padding: 10px;
+	display: block;
+	width: 200px;
+
+}
+
+.imageUser{
+	width: 50px;
+	border-radius: 50px;
+}
+
 header input{
 	display: none;
 }
@@ -66,21 +80,22 @@ header label{
 }
 
 
-.menu li:hover{
-	background: #209475;
+.menu .li:hover{
+	background: #454242;
 	border-bottom: 1px solid white;
 }
 
 .container-all{
-	background: #11D39F;
+	background: #FDFBFB;
 	height: 600px;
 	width: 90%;
 	margin: auto;
 	margin-top:90px;
 	border: 1px solid white;
+	border-radius: 5px;
 }
 main{
-	background: #029D74;
+	background: #CFCCCC;
 	padding-top: 10px;
 }
 
